@@ -1,5 +1,5 @@
 # release-flow publishers, called at a pinned commit. Copy to
-# .github/workflows/release.yml; replace a58feb2913475458d2a0c02567fa72feeadc87e5 with the full
+# .github/workflows/release.yml; replace 80209d086665cc7001f4fc26c50701df230896b6 with the full
 # commit SHA that .release-flow.json "pipeline.sha" also names.
 name: Release
 
@@ -23,7 +23,7 @@ permissions:
 
 jobs:
   release:
-    uses: nbari/release-flow/.github/workflows/release.yml@a58feb2913475458d2a0c02567fa72feeadc87e5
+    uses: nbari/release-flow/.github/workflows/release.yml@80209d086665cc7001f4fc26c50701df230896b6
     with:
       version: ${{ inputs.version }}
       channel: ${{ inputs.channel }}
