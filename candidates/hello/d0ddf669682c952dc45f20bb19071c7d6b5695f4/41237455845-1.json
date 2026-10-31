@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "kind": "candidate-record",
+  "project": "hello",
+  "repository": "nbari/release-flow-storage-test-20261031",
+  "version": "0.1.1",
+  "mode": "production",
+  "candidate_commit": "d0ddf669682c952dc45f20bb19071c7d6b5695f4",
+  "base_commit": "0a529d292c0f1a65d2b3413ad2648c393e1c6da8",
+  "candidate_branch": "release/0.1.1-0a529d292c0f",
+  "run_id": "41237455845",
+  "run_attempt": 1,
+  "manifest_sha256": "d0d91a3780403f332643d80748bfb2650ea8aac8d7a40e5291a4866c93fd3f43",
+  "sha256sums_sha256": "4aa01b0ead1c3d403fead0a9597f30d7bd4db5bed7c4bc85f9e7480540991ac5"
+}
