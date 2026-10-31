@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   candidate:
-    uses: nbari/release-flow/.github/workflows/candidate.yml@a58feb2913475458d2a0c02567fa72feeadc87e5
+    uses: nbari/release-flow/.github/workflows/candidate.yml@sandbox
     with:
       adapter: tools/adapter.sh
     permissions:
