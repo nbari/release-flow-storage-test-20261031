@@ -11,10 +11,10 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
-      - uses: nbari/release-flow@5d490f1ea13355b47b073fb60154d0b3255c3c2d
+      - uses: nbari/release-flow@8c7d444b9e47ae28d0864e8d9fc3c936530f5b5f
         id: validation
         with:
           adapter: tools/adapter.sh
       - env:
           RESULT: ${{ steps.validation.outputs.validation-json }}
-        run: printf '%s' "${RESULT}" | jq -e '.adapter_executed == false and .runtime_revision == "5d490f1ea13355b47b073fb60154d0b3255c3c2d"'
+        run: printf '%s' "${RESULT}" | jq -e '.adapter_executed == false and .runtime_revision == "8c7d444b9e47ae28d0864e8d9fc3c936530f5b5f"'

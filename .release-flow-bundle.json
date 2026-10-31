@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "bundle_version": "0.1.2",
-  "source_commit": "5d490f1ea13355b47b073fb60154d0b3255c3c2d",
+  "source_commit": "8c7d444b9e47ae28d0864e8d9fc3c936530f5b5f",
   "files": [
     {
       "path": ".github/workflows/candidate.yml",
-      "sha256": "77dcdb2cdbae3dfab2fc1f21ac23163d98957797585b9535826c17a0e6a9c64e",
+      "sha256": "92fe2fbfd81405e99c561544c9792fece4233f2d7b970a4733d6c7851e329219",
       "mode": "644"
     },
     {
       "path": ".github/workflows/release.yml",
-      "sha256": "ddb949602423f4c743137dd1374cadb690dcea49e84d121b1febaedca147ac59",
+      "sha256": "aea18a223a3cedc415984fef225c39b08e6617cf827a84c6fedff1a99178cf3b",
       "mode": "644"
     },
     {
