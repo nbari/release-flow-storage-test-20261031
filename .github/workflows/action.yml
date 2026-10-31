@@ -1,0 +1,20 @@
+name: Storage consumer Action
+on:
+  push:
+    branches: [develop]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: nbari/release-flow@a58feb2913475458d2a0c02567fa72feeadc87e5
+        id: validation
+        with:
+          adapter: tools/adapter.sh
+      - env:
+          RESULT: ${{ steps.validation.outputs.validation-json }}
+        run: printf '%s' "${RESULT}" | jq -e '.adapter_executed == false and .runtime_revision == "a58feb2913475458d2a0c02567fa72feeadc87e5"'

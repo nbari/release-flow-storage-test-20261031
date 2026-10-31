@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project": "hello",
+  "adapter": "tools/adapter.sh",
+  "remote": "origin",
+  "production_base": "develop",
+  "test_base": "sandbox",
+  "repository": "nbari/release-flow-storage-test-20261031",
+  "storage": {
+    "uri": "github://nbari/release-flow-storage-test-20261031"
+  },
+  "pipeline": {
+    "repository": "nbari/release-flow",
+    "sha": "a58feb2913475458d2a0c02567fa72feeadc87e5"
+  },
+  "promotion": {
+    "required_job": "candidate / Candidate OK"
+  }
+}
