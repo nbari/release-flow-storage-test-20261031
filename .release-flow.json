@@ -11,7 +11,7 @@
   },
   "pipeline": {
     "repository": "nbari/release-flow",
-    "sha": "a58feb2913475458d2a0c02567fa72feeadc87e5"
+    "sha": "0000000000000000000000000000000000000000"
   },
   "promotion": {
     "required_job": "candidate / Candidate OK"
