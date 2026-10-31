@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "bundle_version": "0.1.1",
-  "source_commit": "80209d086665cc7001f4fc26c50701df230896b6",
+  "bundle_version": "0.1.2",
+  "source_commit": "5d490f1ea13355b47b073fb60154d0b3255c3c2d",
   "files": [
     {
       "path": ".github/workflows/candidate.yml",
-      "sha256": "688db07024afe86a6b4907603f780ead587b9aac0dad2103c34d3434d69002ab",
+      "sha256": "77dcdb2cdbae3dfab2fc1f21ac23163d98957797585b9535826c17a0e6a9c64e",
       "mode": "644"
     },
     {
       "path": ".github/workflows/release.yml",
-      "sha256": "9bd02edb6b01df1fecdeae847fce2e42f571a4964c45d52500b29b5cdabb1fe8",
+      "sha256": "ddb949602423f4c743137dd1374cadb690dcea49e84d121b1febaedca147ac59",
       "mode": "644"
     },
     {
       "path": ".justfiles/deploy.just",
-      "sha256": "8d37ad17ac3c6f43b6c0ff690a3a9ec63f97cb831f85a31bd845f6b705ba6bdd",
+      "sha256": "1eb0205ae005ce6b18129185da4d50a71cdc675bc9d9aef7e0310710d516ca3f",
       "mode": "644"
     },
     {
@@ -119,18 +119,23 @@
       "mode": "755"
     },
     {
+      "path": "scripts/release-candidates.sh",
+      "sha256": "802b0dfca65c34116b8691c80f9998cae7f741595a62621fc07361e885bc2da0",
+      "mode": "755"
+    },
+    {
       "path": "scripts/release-deploy.sh",
       "sha256": "9a6927988f62d23f08a30795413bb2b0833cb6ca215c2bd138b62a0cdf23d707",
       "mode": "755"
     },
     {
       "path": "scripts/release-prepare.sh",
-      "sha256": "7773d45e6d88e59e3cfd3e8eb036ec220a8e269b200dad2ac48e0cf7b7f51303",
+      "sha256": "4e9958b7fdb96a308c9ef1eb8db0fcc1eda194329ebda40fbe5baa1b546ab3f2",
       "mode": "755"
     },
     {
       "path": "scripts/release-promote.sh",
-      "sha256": "c7a9d783a19e8d85291d1f6320f22b1e58f835c466bc0374a566e0f9bfc1f4f5",
+      "sha256": "49af247c1cd55b38659b27fd6f85b87812de77a2c1e2fc61cf4f6c5c5219966d",
       "mode": "755"
     },
     {
