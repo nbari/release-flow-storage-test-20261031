@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "kind": "publication-lock",
+  "project": "storage-fixture",
+  "version": "0.0.0",
+  "channel": "github-release",
+  "attempt_id": "20261031T200334Z-2c8d6bb2",
+  "acquired_at": 1793477014,
+  "expires_at": 1793480614
+}
