@@ -4,14 +4,14 @@
   "adapter": "tools/adapter.sh",
   "remote": "origin",
   "production_base": "develop",
-  "test_base": "sandbox",
+  "test_base": "migration-shell-20261101",
   "repository": "nbari/release-flow-storage-test-20261031",
   "storage": {
     "uri": "github://nbari/release-flow-storage-test-20261031"
   },
   "pipeline": {
-    "repository": "nbari/release-flow",
-    "sha": "8c7d444b9e47ae28d0864e8d9fc3c936530f5b5f"
+    "repository": "nbari/release",
+    "sha": "5bc18d5f8e58c6be9f61078eaf3290d1d2357150"
   },
   "promotion": {
     "required_job": "candidate / Candidate OK"

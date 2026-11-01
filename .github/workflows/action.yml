@@ -1,7 +1,7 @@
-name: Storage consumer Action
+name: Migrated framework validation
 on:
   push:
-    branches: [develop]
+    branches: [migration-shell-20261101]
 permissions:
   contents: read
 jobs:
@@ -11,10 +11,10 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
-      - uses: nbari/release-flow@8c7d444b9e47ae28d0864e8d9fc3c936530f5b5f
+      - uses: nbari/release@5bc18d5f8e58c6be9f61078eaf3290d1d2357150
         id: validation
         with:
           adapter: tools/adapter.sh
       - env:
           RESULT: ${{ steps.validation.outputs.validation-json }}
-        run: printf '%s' "${RESULT}" | jq -e '.adapter_executed == false and .runtime_revision == "8c7d444b9e47ae28d0864e8d9fc3c936530f5b5f"'
+        run: printf '%s' "${RESULT}" | jq -e '.adapter_executed==false and .project=="hello" and .runtime_revision=="5bc18d5f8e58c6be9f61078eaf3290d1d2357150"'

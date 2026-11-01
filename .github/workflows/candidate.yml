@@ -1,5 +1,5 @@
 # release-flow candidate pipeline, called at a pinned commit. Copy to
-# .github/workflows/candidate.yml; replace 8c7d444b9e47ae28d0864e8d9fc3c936530f5b5f with the full
+# .github/workflows/candidate.yml; replace 5bc18d5f8e58c6be9f61078eaf3290d1d2357150 with the full
 # commit SHA that .release-flow.json "pipeline.sha" also names.
 name: Candidate
 
@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   candidate:
-    uses: nbari/release-flow/.github/workflows/candidate.yml@8c7d444b9e47ae28d0864e8d9fc3c936530f5b5f
+    uses: nbari/release/.github/workflows/candidate.yml@5bc18d5f8e58c6be9f61078eaf3290d1d2357150
     with:
       adapter: tools/adapter.sh
     permissions:
